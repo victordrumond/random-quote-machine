@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Machine</title>
+    <!--Favicon-->
+    <link href="assets/img/favicon.jpg" rel="icon">
+    <!--Font Awesome-->
+    <link href="assets/vendor/font-awesome/css/all.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Main Content-->
+    <section id="background" class="container-fluid d-flex flex-column align-items-center">
+        <!--Title-->
+        <div id="title-container" class="text-center">
+            <h2 id="title">The Random Quote Machine</h2>
+        </div>
+        <!--Quote Box-->
+        <div id="quote-box" class="container-fluid d-flex flex-column">
+            
+            <!--Quote-->
+            <div id="text-container" class="text-start">
+                <h1 id="text"></h1>
+            </div>
+            <!--Author-->
+            <div id="author-container" class="text-end">
+                <h3 id="author"></h3>
+            </div>
+            <!--Buttons-->
+            <div id="buttons-container" class="d-flex justify-content-between text-center">
+                <div id="tweet-button">
+                    <a id="tweet-quote" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+                </div>
+                <div id="arrow-buttons" class="d-flex">
+                    <a id="last-quote"><i class="fas fa-arrow-left fa-fw"></i></a>
+                    <a id="next-quote"><i class="fas fa-arrow-right fa-fw"></i></a>
+                </div>
+                <div id="new-button">
+                    <a id="new-quote"><i class="fas fa-plus fa-fw"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer" class="container-fluid d-flex justify-content-center text-center">
+        <p>A freeCodeCamp project by Victor</p>
+    </footer>
+
+    <!--Bootstrap-->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!--jQuery-->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <!--JavaScript file-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
